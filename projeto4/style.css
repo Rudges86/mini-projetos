@@ -1,0 +1,233 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*Cabeçalho da página*/
+header{
+    background-color: #00cad1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+}
+header img{
+    height: 70px;
+    margin-left: 20px;
+}
+.links-top{
+    width: 440px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 20px;
+}
+.links-top a{
+    color:white;
+    text-decoration: none;
+}
+.links-top a:hover{
+    background-color: white;
+    color:black;
+    transform: scale(1.2);
+}
+/*Fim do cabeçalho*/
+main{
+    color:#0000008c;
+}
+/*Início da primeira seção*/
+.secao1{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-image: url('assets/recepcao.png  ');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.secao1 h1{
+    font-size: 50px;
+    color:white;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+/*Fim da seção 1*/
+/*Início da secao2*/
+.secao2{
+    margin-top:10px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap:wrap ;
+}
+.secao2 .titulo-principal{
+    text-align: center;
+    height: 100px;
+    width: 80%;
+}
+.titulo-principal h2{
+    margin-bottom: 10px;
+    font-size: 29px;
+}
+.titulo-principal p{
+    font-size: 18px;
+}
+.horarios{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+.horarios div{
+    height: 70%;
+    text-align: justify;
+    margin-top:30px;
+}
+.horarios div ul{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+/*Fim da seção 2*/
+/*Início da seção 3*/
+.secao3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+    
+}
+.titulo3{
+    text-align: center;   
+    line-height: 2.5rem;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cards figure{
+    margin:0 20px;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 20px 20px 0 0;
+}
+.cards-imagem{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+    box-sizing: border-box;
+}
+.cards figure figcaption{
+    height: 40px;
+    margin:0;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+/*Link*/
+.secao3 a{
+    background-color: #00cad1;;
+    color: white;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.secao3 a:hover{
+    transform:scale(1.5);
+    transition: 2s;
+}
+/*Fim seção 3*/
+/*Início seção 4*/
+.secao4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+}
+.secao4 p{
+    line-height: 2rem;
+}
+.secao4 p span{
+    font-weight: bold;
+}
+
+.map{
+    width: calc(100% - 80px);
+    height:350px;
+}
+/*Fim seção 4*/
+/*footer*/
+footer{
+    background-color:#0d6e71;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+footer div p{
+    padding: 5px;
+    text-align: center;
+}
+/*medias*/
+@media(max-width:1024px){
+    .secao1{
+        height: 400px;
+    }
+}
+@media(max-width:768px){
+    .secao1 {
+        height: 300px;
+    }
+    .cards figure{
+        width: calc(50%/2 -40px);
+    }
+    .cards{
+        justify-content: center;        
+    }
+    .horarios div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+        margin-left: 15%;
+    }
+    .horarios figure img{
+        display:none;
+    }
+}
+@media (max-width: 425px){
+    .secao1 {
+        height: 200px;
+    }
+    .secao1 h1{
+        font-size: 28px;
+    }
+    .cards figure {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .cards figure img{
+        width: 100px;
+        height: 100px;
+    }
+    .map iframe{
+        height: 80%;
+        margin-top: 25px;
+    }
+}

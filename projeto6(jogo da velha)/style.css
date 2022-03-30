@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+.quadrado {
+    text-align: center;
+    width: 58px;
+    background-color: #eee;
+    display: inline-block;
+    padding: 40px;
+    margin: 5px;
+    font-size: 68px;
+    cursor: pointer;
+    color:#eee;
+}
+.selecao{
+    margin: 8px;
+}
+.jogador, .vencedor,#jogador-selecionado,#vencedor-selecionado{  
+    font-size: 28px;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: black;
+    color: wheat;
+    letter-spacing: 2px;
+}

@@ -1,2 +1,2 @@
 # miniprojetos
-    Meus projetos de treino.
+    Projetos desenvolvidos para treinar habilidades, com elementos HTML, CSS e JavaScript.

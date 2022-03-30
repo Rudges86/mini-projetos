@@ -1,0 +1,79 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div{
+    width: 450px;
+    height: 450px;
+    border: black 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+}
+form{
+    border: 3px solid black;
+    box-shadow: 8px 10px 15px black;
+    padding: 20px;
+    background: aquamarine;
+}
+form input:first-child{
+    width: 199px;
+    height: 50px;
+    margin-bottom: 18px;
+    margin-right: 3px;
+    margin-left: 3px;
+    border: 2px solid white;
+    box-shadow: 1px -3px 5px black ;
+    text-align: right;
+    font-size: 30px;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form input:nth-child(2){
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    border:3px solid black;
+    text-align:center;
+    font-size: 24px;
+    cursor: pointer;
+    background-color:purple;
+    color: white;
+    font-size: 28px;
+}
+
+.btn{
+    margin: 3px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30%;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.aqua{
+    background-color: aqua;
+}

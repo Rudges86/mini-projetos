@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Projeto Calculadora</h1>
+   <div>
+        <form action="" name="calculadora">
+            <input type="text" name="display" id="" disabled>
+            <input type="text" name="c" id="" value="c" onclick="location.reload()">
+            <br>
+
+                <!--
+                    Botões
+                -->
+            <input type="button" value="9" name="btn-9" class="btn" onclick="calcula(this.value)">
+            <input type="button" value="8" name="btn-8" class="btn" onclick="calcula(this.value)">
+            <input type="button" value="7" name="btn-7" class="btn" onclick="calcula(this.value)">
+            <input type="button" value="+" name="soma" class="btn red" onclick="calcula(this.value)">
+            <br>
+            <input type="button" value="6" name="btn-6" class="btn" onclick="calcula(this.value)">
+            <input type="button" value="5" name="btn-5" class="btn" onclick="calcula(this.value)">
+            <input type="button" value="4" name="btn-4" class="btn" onclick="calcula(this.value)">
+            <input type="button" value="-" name="btn-sub" class="btn green" onclick="calcula(this.value)">
+            <br>
+            <input type="button" value="3" name="btn-3" class="btn" onclick="calcula(this.value)">
+            <input type="button" value="2" name="btn-2" class="btn" onclick="calcula(this.value)">
+            <input type="button" value="1" name="btn-1" class="btn" onclick="calcula(this.value)">
+            <input type="button" value="*" name="mult" class="btn yellow" onclick="calcula(this.value)">
+            <br>
+            <input type="button" value="." name="ponto" class="btn" onclick="calcula(this.value)">
+            <input type="button" value="0" name="btn-0" class="btn" onclick="calcula(this.value)">
+            <input type="button" value="=" name="igual" class="btn blue" onclick="display.value = eval(display.value)">
+            <input type="button" value="/" name="divisao" class="btn aqua" onclick="calcula(this.value)">
+        </form>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>

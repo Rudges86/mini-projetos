@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+header{
+    text-align: center;
+    background-color: rgb(226, 168, 43);
+    padding: 10px;
+    color: white;
+}
+main{
+    padding: 30px 50px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 30px 50px;
+}
+.dados{
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.dados1{
+    display: grid;
+    margin: 10px 0;
+}
+
+input{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    outline: none;
+}
+button{
+    border: none;
+    background-color: rgb(226, 174, 43);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: .25s all ease-in-out;
+}
+button:last-child {
+    margin-left: 10px;
+}
+button:hover{
+    background-color: rgb(70, 7, 128);
+    cursor: pointer;
+}
+
+.tabela{
+    margin-top: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border:1px solid #ccc
+}
+table th{
+    background: rgb(214, 214, 214);
+}
+th,td{
+    padding: 8px;
+ 
+    text-align: left;
+}
+
+img{
+    width: 25px;
+    padding: 2px 4px;
+    margin-left: 8px;
+}
+img:hover{
+    cursor:pointer;
+    background-color: #ccc;
+    border-radius: 4px;
+}
+.center{
+    text-align: center;
+}
